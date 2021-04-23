@@ -238,7 +238,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
     case WM_CREATE: 
     {
-        OutputDebugStringW(L" Create windo ");
+        OutputDebugStringW(L" Create windo \n");
          
         PIXELFORMATDESCRIPTOR pfd =
         {
@@ -327,10 +327,10 @@ void InitDirectX(HWND* hWnd) {
 
     if (SUCCEEDED(D3D12GetDebugInterface(MY_IID_PPV_ARGS(&debugInterface)))) {
         debugInterface->EnableDebugLayer();
-        OutputDebugString(L" Enable debug is okk ");
+        OutputDebugString(L" Enable debug is okk \n");
     }
     else {
-        OutputDebugStringW(L" Not enable debug layers ");
+        OutputDebugStringW(L" Not enable debug layers \n");
     }
 
 
