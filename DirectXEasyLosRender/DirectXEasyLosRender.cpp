@@ -83,7 +83,7 @@ static HRESULT EnableExperimentalShaderModels()
         FreeLibrary(hRuntime);
         return HRESULT_FROM_WIN32(GetLastError());
     }
-    OutputDebugString(L" Experimental Shader's model is active ! \n");
+    OutputDebugString(L" Experimental Shader's model is active new add  ! \n");
     return pD3D12EnableExperimentalFeatures(1, &D3D12ExperimentalShaderModelsID, nullptr, nullptr);
 }
 
