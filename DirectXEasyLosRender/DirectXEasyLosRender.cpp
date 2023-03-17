@@ -330,7 +330,7 @@ void InitDirectX(HWND* hWnd) {
         OutputDebugString(L" Enable debug is okk \n");
     }
     else {
-        OutputDebugStringW(L" Not enable debug layers \n");
+        OutputDebugStringW(L" Not enable debug layers little commit  \n");
     }
 
 
